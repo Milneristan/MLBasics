@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Iris flower classification model</title>
+<body text = white bgcolor = #00b5a7>
+<h1>Iris Flower Classification: </h1>
+<form action="/predict" method="post">
+<label>Sepal Length: </label><br>
+<input type="text" name="sepal_l" required><br>
+<label>Sepal Length: </label><br>
+<input type="text" name="sepal_w" required><br>
+<label>Sepal Length: </label><br>
+<input type="text" name="petal_l" required><br>
+<label>Sepal Length: </label><br>
+<input type="text" name="petal_w" required><br>
+<br>
+<button type="submit">Predict</button>
+</form>
+<h2>{{ prediction }}</h2>
+</head>
+</body>
+</html>
